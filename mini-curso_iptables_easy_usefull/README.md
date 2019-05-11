@@ -6,5 +6,5 @@ As simulações são feitas em 4 VMs, na qal uma delas é o firewall e as demais
 
 A topologia da rede utilizada é mostrada abaixo.
 
-
+![topologia-minicurso-iptables](https://user-images.githubusercontent.com/43869367/57570250-5a7f5280-73d6-11e9-907a-5a94415ad9b9.png)
 
