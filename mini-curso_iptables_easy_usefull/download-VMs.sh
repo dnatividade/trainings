@@ -1,11 +1,10 @@
 #!/bin/bash
 
 #################################################################
-# Description:	script that downloads all parts of the
-# 				VM and join them.
+# Description: script that downloads all parts of the VM and join them.
 # 
-# Created:		2019-05-12	dnatividade
-# Updated:		2019-05-15	alexandredias3d
+# Created: 2019-05-12	dnatividade
+# Updated: 2019-05-15	alexandredias3d
 #
 #################################################################
 
