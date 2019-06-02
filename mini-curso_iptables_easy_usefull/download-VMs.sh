@@ -5,6 +5,7 @@
 # 
 # Created: 2019-05-12	dnatividade
 # Updated: 2019-05-15	alexandredias3d
+# Updated: 2019-06-02   dnatividade
 #
 #################################################################
 
@@ -41,7 +42,7 @@ done
 
 
 # Joins the parts
-cat mini-curso-iptables.tar.* > mini-curso-iptables.tar
+cat mini-curso-iptables.tar* > mini-curso-iptables.tar
 # Extract .ova file
 tar xvf mini-curso-iptables.tar
 
