@@ -4,5 +4,6 @@ Mini-curso ministrado por #dnatividade, com objetivo de ensinar a configurar um 
 
 Os testes são feitos em 3 VMs, na qual uma delas é o gateway e as demais são estações clientes.
 
-#### A topologia da rede utilizada é mostrada abaixo (em atualização).
-...
+#### A topologia da rede utilizada é mostrada abaixo:
+
+### (curso reformulado...)
