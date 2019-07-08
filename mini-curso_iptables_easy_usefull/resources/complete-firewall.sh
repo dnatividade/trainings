@@ -69,6 +69,14 @@ iptables -P FORWARD DROP
 #
 ##
 ###
+### Drop connexoes invalidas ###
+iptables -A INPUT   -m state --state INVALID -j DROP
+iptables -A OUTPUT  -m state --state INVALID -j DROP
+iptables -A FORWARD -m state --state INVALID -j DROP
+
+#
+##
+###
 ### Regras PREROUTING -- Redirecionamento de portas ###
 iptables -t nat -A PREROUTING -i $IF_WAN -p tcp --dport 5541 -j DNAT --to $SERVER
 iptables -t nat -A PREROUTING -i $IF_WAN -p tcp --dport 9000 -j DNAT --to $DVR
@@ -84,6 +92,12 @@ iptables -A INPUT -p icmp --icmp-type 8 -j ACCEPT
 iptables -A INPUT -p tcp --dport 22 -j ACCEPT
 iptables -A INPUT -p tcp --dport 53 -j ACCEPT
 iptables -A INPUT -p udp --dport 53 -j ACCEPT
+
+#
+##
+###
+### Regras OUTPUT ###
+iptables -A OUTPUT -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT
 
 #
 ##
@@ -126,12 +140,6 @@ iptables -A FORWARD -i $IF_WAN -o $IF_LAN -d $DVR    -p tcp --dport 9000 -j ACCE
 #iptables -A FORWARD -i $IF_DMZ -o $IF_LAN -p icmp --icmp-type 8 -j ACCEPT
 #iptables -A FORWARD -i $IF_DMZ -o $IF_LAN -p tcp --dport 3389 -j ACCEPT
 #iptables -A FORWARD -i $IF_DMZ -o $IF_LAN -p tcp --dport 139 -j ACCEPT
-
-#
-##
-###
-### Regras OUTPUT ###
-iptables -A OUTPUT -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT
 
 #
 ##
