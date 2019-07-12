@@ -148,7 +148,7 @@ iptables -A FORWARD -i $IF_WAN -o $IF_LAN -d $DVR    -p tcp --dport 9000 -j ACCE
 echo 1 > /proc/sys/net/ipv4/ip_forward
 
 #Configurando NAT
-iptables -t nat -A POSTROUTING -s $REDE_IF_LAN -o $IF_WAN -j MASQUERADE #NAT: mascaramento (compartilhar Internet)
+iptables -t nat -A POSTROUTING -s $REDE_LAN -o $IF_WAN -j MASQUERADE #NAT: mascaramento (compartilhar Internet)
 #iptables -t nat -A POSTROUTING -o $IF_WAN -j MASQUERADE #NAT: mascaramento (compartilhar Internet)
 
 #dn@at
