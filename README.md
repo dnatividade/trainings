@@ -1,4 +1,4 @@
-# Trainings ![docs-trainings](https://img.shields.io/badge/docs-trainings-green)
+# Trainings ![docs-trainings](https://img.shields.io/badge/docs-PtBR_trainings-green)
 Several courses and training by #dnatividade
 
 - mini-curso: Linux command line [pt-BR]
