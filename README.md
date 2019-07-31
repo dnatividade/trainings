@@ -1,4 +1,4 @@
-# Trainings ![status](https://img.shields.io/readthedocs/pip.svg)
+# Trainings ![docs-trainings](https://img.shields.io/badge/docs-trainings-green)
 Several courses and training by #dnatividade
 
 - mini-curso: Linux command line [pt-BR]
