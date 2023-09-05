@@ -6,5 +6,5 @@ Os testes são feitos em 1 VM com Debian Linux em modo texto (sem interface grá
 
 Ao decorrer do curso, o aluno aprenderá a utilizar, desde comandos báscos para manipular arquivos e permissões, passando por editores de texto, até testes básicos de rede e conectividade.
 
-#### (em atualização)
+#### (conteúdo em atualização)
 ...
