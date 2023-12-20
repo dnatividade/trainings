@@ -7,3 +7,7 @@ Os testes são feitos em 3 VMs, na qual uma delas é o gateway e as demais são 
 #### A topologia da rede utilizada é mostrada abaixo:
 
 ### (curso reformulado...)
+
+```
+@dnat
+```
