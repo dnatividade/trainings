@@ -1,6 +1,6 @@
 # Mini-curso: iptables Easy and Useful
 
-Mini-curso ministrado por #dnatividade, com objetivo de ensinar iptables de forma prática e objetiva, usando um ambiente virtualizado no VirtualBox.
+Mini-curso ministrado por @dnatividade, com objetivo de ensinar iptables de forma prática e objetiva, usando um ambiente virtualizado no VirtualBox.
 
 Os testes são feitos em 4 VMs, na qual uma delas é o firewall e as demais são estações clientes.
 
