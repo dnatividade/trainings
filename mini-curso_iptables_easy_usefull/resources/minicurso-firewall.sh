@@ -14,8 +14,8 @@
 
 
 ####################################################
-#Autor:     Diego Natividade #dn@at
-#E-mail:    diego@connectivaredes.com
+#Autor:     @dnat
+#E-mail:    suporte@connectivaredes.com
 #Github:    /dnatividade
 #
 #Desc.:     Script de firewall usado no mini-curso
