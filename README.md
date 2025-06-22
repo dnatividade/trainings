@@ -1,5 +1,5 @@
 # Trainings ![docs-trainings](https://img.shields.io/badge/docs-PtBR_trainings-green)
-Several courses and training by #dnatividade
+Several courses and training by #dnat
 
 - mini-curso: Linux command line [pt-BR]
 - mini-curso: Linux networks [pt-BR]
